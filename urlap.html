@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <nav class="topnav">
+    <a class="active" href="index.html">FŐOLDAL &nbsp;|</a>
+    <a href="keplink.html">KÉPLINK FELADAT &nbsp;|</a>
+    <a href="listak.html">LISTÁK FELADAT &nbsp;|</a>
+    <a href="tablazat.html">ÓRAREND FELADAT &nbsp;|</a>
+    <a href="urlap.html">ŰRLAP FELADAT &nbsp;</a>
+    <a href="div.html">KÁRTYÁS FELEDAT</a>
+  </nav>
+    <form>
+            <h1>Heinsenberg meth 99.1% tiszta</h1>
+        <fieldset>
+            <legend>Adatok</legend>
+        <label for="rak">Felhasználónév</label><br>
+        <input type="text" id="rak" name="rak"><br>
+        <label for="gyomor">Jelszó</label><br>
+        <input type="password" id="gyomor" name="gyomor">
+        </fieldset>
+      </form>
+      <fieldset>
+      <legend>Mennyiség</legend> 
+      <form>
+     <label for="1000">10g</label><br>
+     <input type="radio" id="1000" name="rak"><br>
+     <label for="2800">50g</label><br>
+     <input type="radio" name="rak" id="2800"><br>
+     <label for="5000">1kg</label><br>
+     <input type="radio" name="rak" id="5000"><br>
+     <label for="13500">10kg</label><br>
+     <input type="radio" name="rak" id="13500"><br>
+      </fieldset>
+     <fieldset>
+        <legend>Átvétel ideje</legend>
+     <label for="mikor"></label><br> 
+    <input type="date" id="datum" name="datum"><br>
+    <label for="idi"></label>
+    <input type="time" id="idi" name="idi">
+    <br></fieldset>
+    <fieldset>
+        <legend>Átvétel helye</legend>
+    <label for="email"></label><br>
+    <input type="email" id="email" name="email">
+    </fieldset>
+    <fieldset>
+        <legend>Eldobható telefon száma</legend>
+        <input list="skin" name="skin">
+        <datalist id="skin">
+          <option value="Amugy">
+          <option value="Csak">
+          <option value="Vicceltem">
+          <option value="xd">
+        </datalist>
+      </fieldset>
+      <fieldset>
+        <legend>Belegyezzel hogy nem leszel vamzer?</legend>
+         <input type="checkbox" id="kell" name="kell" value="kell">
+         <label for="kell">persze</label><br></fieldset>
+    <br>
+     <br> 
+       
+     <input type="button" value="Submit"/>
+     <input type="reset" value="Reset">
+     <input type="button" onclick="alert('Mond a nevem')" value="W.W">
+     
+
+      </form>
+      <p>ne legyél vamzer mert elkapunk</p> 
+    
+    </body>
+</html>

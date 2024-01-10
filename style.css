@@ -1,0 +1,45 @@
+p{
+    color: black;
+}
+
+nav{
+background-color: black;
+}
+
+nav a {
+    color: skyblue;
+    text-decoration: none;
+    background-color: black;
+}
+nav a:hover {
+    color: blueviolet;
+    font-size: larger;
+}
+div {
+    background-color: black;
+}
+#footer {
+    color: aqua;
+}
+
+.box1
+.box2
+.box3{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box1{
+    background-color: blue;
+    float: left;
+}
+.box2{
+    background-color: red;
+    float: left;
+}
+.box3{
+    background-color: green;
+    width: 200px;
+    clear: both;
+}
